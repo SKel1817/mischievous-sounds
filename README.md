@@ -1,5 +1,5 @@
 # Mischievous Sounds
-Mischievous Sounds is a Python tkinter GUI sound board that lets you play six different pre-loaded sounds with the click of a button, as well as add your own custom sound from your file directory. It provides a fun and interactive way to play sounds and create mischief!
+Mischievous Sounds is a Python GUI sound board that lets you play six different pre-loaded sounds with the click of a button, as well as add your own custom sound from your file directory. It provides a fun and interactive way to play sounds and create mischief!
 
 ## Features
 -Six pre-loaded sounds: Mischievous Sounds comes with six default sounds that you can play with just a click of a button. These sounds are designed to add a playful and mischievous element to your environment.
@@ -12,10 +12,10 @@ Mischievous Sounds is a Python tkinter GUI sound board that lets you play six di
 
 ## Requirements
 Mischievous Sounds requires Python 3.x and the following Python libraries to be installed:
-- tkinter: for the graphical user interface.
 - playsound: to play sounds
 
 You can install the required libraries by running the requirments.txt file by entering 
+
 ```python -m pip install -r requirments.txt```
 
 ## Usage
@@ -23,7 +23,7 @@ You can install the required libraries by running the requirments.txt file by en
 
 - Navigate to the directory where the repository was cloned or extracted.
 
-- Run the mischievous_sounds.py file using Python 3.x. 
+- Run the mischievous_sounds.py file using Python 3.10
 - The Mischievous Sounds GUI will open, displaying six buttons representing the pre-loaded sounds. Click any of the buttons to play the corresponding sound.
 
 - To add a custom sound, click the "Add Custom Sound" button and choose the sound file from your file directory. Once the custom sound is added, it will be displayed as a new button on the GUI. Click the custom sound button to play the custom sound. Be mindful of the non-responsive issue and wait for a sound to finish playing before clicking any other buttons.
