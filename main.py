@@ -72,9 +72,6 @@ tk.Button(root, text="imposion 4", command=lambda:sound('9'), bg= color,width=20
 tk.Button(root, text="Scream", command=lambda:sound('10'), bg= color,width=20, height=3).grid(row=4, column=0,padx=15, pady=5)
 tk.Button(root, text="Wahoo", command=lambda:sound('11'), bg= color,width=20, height=3).grid(row=4, column=2,padx=15, pady=5)
 
-
-
-
 #file explorer button
 button_explore = Button(root, text = "Browse Files to add custom sound",command = browseFiles, bg= color2, width=26, height=3).grid(row=6, column=0, pady=5)
 
