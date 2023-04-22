@@ -14,14 +14,14 @@ Mischievous Sounds requires Python 3.10 and the following Python libraries to be
 
 You can install the required libraries by running the requirments.txt file by entering 
 
-```python -m pip install -r requirments.txt```
+```python -m pip install -r requirements.txt```
 
 ## Usage
 - Clone the Mischievous Sounds repository to your local machine or download the source code as a ZIP file and extract it.
 
 - Navigate to the directory where the repository was cloned or extracted.
 
-- Run the mischievous_sounds.py file using Python 3.10
+- Run the main.py file using Python 3.10
 - The Mischievous Sounds GUI will open, displaying 12 buttons representing the pre-loaded sounds. Click any of the buttons to play the corresponding sound.
 
 - To add a custom sound, click the "Add Custom Sound" button and choose the sound file from your file directory. Once the custom sound is added, it will be displayed as a new button on the GUI. Click the custom sound button to play the custom sound. Be mindful of the non-responsive issue and wait for a sound to finish playing before clicking any other buttons.
