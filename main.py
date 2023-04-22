@@ -11,7 +11,8 @@ root.title("Mischievous Sounds")
 root.geometry("640x480")
 
 #set icon for window to icon.ico that is in sounds folder
-root.iconbitmap(os.path.join(os.path.dirname(__file__), 'sounds', 'icon.ico'))
+filepath = os.path.join(os.path.dirname(__file__), 'sounds', 'icon.xbm')
+root.iconbitmap('@' + filepath)
 #set background color and make variables for button color
 root['bg']='chartreuse4'
 color = 'OliveDrab2'
@@ -35,7 +36,7 @@ def sound(num):
     #grabs the sound from the sounds folder
     path = os.path.join(os.path.dirname(__file__), 'sounds', play)
     #plays sound and makes sure it's an inte
-    playsound(str(path))
+    playsound('@' + str(path))
 
 def customsound1(name):
     #plays the custom sound
