@@ -53,24 +53,24 @@ tk.Label(root, text="Mischievous Sounds", bg= 'chartreuse4', fg='white', font=('
 
 #sound buttons
 #first row of buttons
-tk.Button(root, text="classic implosion", command=lambda:sound('0'), bg= color, width=20, height=3).grid(row=1, column=0,padx=15, pady=5)
-tk.Button(root, text="implosion 2", command=lambda:sound('1'), bg= color, width=20, height=3).grid(row=1, column=1,padx=15, pady=5)
-tk.Button(root, text="sad music", command=lambda:sound('2'),  bg= color,width=20, height=3).grid(row=1, column=2,padx=15, pady=5)
+tk.Button(root, text="classic implosion", command=lambda:sound('0'), bg= color, width=20, height=3).grid(row=1, column=0,padx=20, pady=5)
+tk.Button(root, text="implosion 2", command=lambda:sound('1'), bg= color, width=20, height=3).grid(row=1, column=1,padx=20, pady=5)
+tk.Button(root, text="sad music", command=lambda:sound('2'),  bg= color,width=20, height=3).grid(row=1, column=2,padx=20, pady=5)
 
 #second row of buttons
-tk.Button(root, text="alarm", command=lambda:sound('3'),bg= color,  width=20, height=3).grid(row=2, column=0,padx=15, pady=5)
-tk.Button(root, text="drum", command=lambda:sound('4'), bg= color,width=20, height=3).grid(row=2, column=1,padx=15, pady=5)
-tk.Button(root, text="alien?", command=lambda:sound('5'), bg= color,width=20, height=3).grid(row=2, column=2,padx=15, pady=5)
+tk.Button(root, text="alarm", command=lambda:sound('3'),bg= color,  width=20, height=3).grid(row=2, column=0,padx=20, pady=5)
+tk.Button(root, text="drum", command=lambda:sound('4'), bg= color,width=20, height=3).grid(row=2, column=1,padx=20, pady=5)
+tk.Button(root, text="alien?", command=lambda:sound('5'), bg= color,width=20, height=3).grid(row=2, column=2,padx=20, pady=5)
 
 #third row of buttons
-tk.Button(root, text="ora", command=lambda:sound('6'), bg= color,width=20, height=3).grid(row=3, column=0,padx=15, pady=5)
-tk.Button(root, text="punch", command=lambda:sound('7'), bg= color,width=20, height=3).grid(row=3, column=1,padx=15, pady=5)
-tk.Button(root, text="imposion 3", command=lambda:sound('8'), bg= color,width=20, height=3).grid(row=3, column=2,padx=15, pady=5)
+tk.Button(root, text="ora", command=lambda:sound('6'), bg= color,width=20, height=3).grid(row=3, column=0,padx=20, pady=5)
+tk.Button(root, text="punch", command=lambda:sound('7'), bg= color,width=20, height=3).grid(row=3, column=1,padx=20, pady=5)
+tk.Button(root, text="imposion 3", command=lambda:sound('8'), bg= color,width=20, height=3).grid(row=3, column=2,padx=20, pady=5)
 
 #fourth row of buttons
-tk.Button(root, text="imposion 4", command=lambda:sound('9'), bg= color,width=20, height=3).grid(row=4, column=1,padx=15, pady=5)
-tk.Button(root, text="Scream", command=lambda:sound('10'), bg= color,width=20, height=3).grid(row=4, column=0,padx=15, pady=5)
-tk.Button(root, text="Wahoo", command=lambda:sound('11'), bg= color,width=20, height=3).grid(row=4, column=2,padx=15, pady=5)
+tk.Button(root, text="imposion 4", command=lambda:sound('9'), bg= color,width=20, height=3).grid(row=4, column=1,padx=20, pady=5)
+tk.Button(root, text="Scream", command=lambda:sound('10'), bg= color,width=20, height=3).grid(row=4, column=0,padx=20, pady=5)
+tk.Button(root, text="Wahoo", command=lambda:sound('11'), bg= color,width=20, height=3).grid(row=4, column=2,padx=20, pady=5)
 
 #file explorer button
 button_explore = Button(root, text = "Browse Files to add custom sound",command = browseFiles, bg= color2, width=26, height=3).grid(row=6, column=0, pady=5)
