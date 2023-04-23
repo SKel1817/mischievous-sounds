@@ -2,7 +2,7 @@
 Mischievous Sounds is a Python GUI sound board that lets you play several different pre-loaded sounds with the click of a button, as well as add your own custom sound from your file directory. It provides a fun and interactive way to play sounds and create mischief!
 
 ## Features
-- Six pre-loaded sounds: Mischievous Sounds comes with 12 default sounds that you can play with just a click of a button. These sounds are designed to add a playful and mischievous element to your environment.
+- 12 pre-loaded sounds: Mischievous Sounds comes with 12 default sounds that you can play with just a click of a button. These sounds are designed to add a playful and mischievous element to your environment.
 
 - Custom sound addition: You can easily browse your file directory and add your own custom sound to the sound board. Simply click the "Browse Files to add custom sound" button, choose the sound file from your file directory, and the custom sound will be added to the sound board for you to play.
 
